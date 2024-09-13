@@ -1,3 +1,8 @@
 [build]
   command = "npm install && npm run build"
   functions = "functions"
+
+[build.environment]
+  NODE_OPTIONS = "--openssl-legacy-provider"
+  NODE_VERSION = "16"
+  
